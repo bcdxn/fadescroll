@@ -1,0 +1,27 @@
+.fade-scroll-wrapper {
+  padding: 1em;
+  position: relative;
+}
+
+.fade-scroll-content {
+  position: relative;
+  z-index: 3;
+}
+
+.bg-panel {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.bg-panel.to {
+  z-index: 1;
+  opacity: 1.0;
+}
+
+.bg-panel.to {
+  z-index: 2;
+  opacity: 0.0;
+}
