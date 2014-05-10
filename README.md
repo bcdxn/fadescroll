@@ -22,13 +22,12 @@ container.
 <div id="myContent">
   <h1 class='big-title'>Fadescroll</h1>
 </div>
-<!-- ... -->
 
 ```
 ##### JavaScript
 ```javascript
-/* Initialize fadescroll */
-$('myContent').fadescroll({
+/* Initialize fadescroll  with a config object*/
+$('#myContent').fadescroll({
   fromClass: 'my-from',
   toClass: 'my-to',
 });
@@ -54,9 +53,9 @@ $('myContent').fadescroll({
 }
 ```
 
-_Note: If you want to achieve the blur effect you have to use two different
+_Note: If you want to achieve the image blur effect you have to use two different
 images--a clear image and a blurred image (you can blur/darken the image with
-[Gimp](http://www.gimp.org/) for example)_
+[Gimp](http://www.gimp.org/) for example). More details on that on Matt's [blog](http://mattduvall.com/blog/medium-ux-blurry-scroll/)_
 
 ======
 
