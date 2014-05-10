@@ -78,14 +78,14 @@ var config = {
 }
 ```
 
-The `blurLocExpr` defines where on the screen the user must scroll the container
+The `blurLocExpr` property defines where on the screen the user must scroll the container
 to before the transition begins. The config value accepts a simple expression.
 
 ##### For Example
 
 ```javascript
 // The transition will begin once the top of the container element has been
-// scrolled 100 pixels past the bottom.
+// scrolled 100 pixels past the bottom of the window.
 var config = {
   blurLocExpr = 'bottom+100'
 }
