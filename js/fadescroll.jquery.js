@@ -37,8 +37,8 @@
   $.fn.fadescroll = function (config) {
     var $self  = $(this);
 
-    var fromClass        = config.fromClass        || '',
-        toClass          = config.toClass          || '',
+    var fromClass        = config.fromClass        || 'my-from',
+        toClass          = config.toClass          || 'my-to',
         fadeScrollDelta  = config.fadeScrollDelta  || 200,
         $scrollContainer = config.$scrollContainer || $(window),
         blurLocExpr      = config.blurLocExpr      || 'top',
