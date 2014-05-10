@@ -1,0 +1,33 @@
+body {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 150%;
+}
+
+.my-from { background: #fb2b69; }
+.my-to { background: #ff5b37; }
+
+.my-from-img {
+  background: url("img/bg_clear.jpg");
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.my-to-img {
+  background: url("img/bg_blur.jpg");
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.big-title {
+  font-family: 'Engagement', Helvetica, Arial, sans-serif;
+  font-size: 150px;
+  line-height: 400px;
+  text-align: center;
+}
+
+.another-wrapper {
+  color: #333;
+}
