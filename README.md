@@ -107,3 +107,5 @@ i.e.
   'top-50'
   'bottom+200'
 ```
+
+**Checkout the example page for more details**
