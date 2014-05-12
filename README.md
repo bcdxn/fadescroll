@@ -14,7 +14,9 @@ neatly packages a generic implementation.
 ![Animated Example](https://github.com/bcdxn/fadescroll/blob/develop/example/img/fadescroll-example.gif?raw=true)
 
 Fadescroll allows you to smoothly fade between two background styles for a
-container.
+container. (In the above screen capture you can see the background for the
+first container changing from a clear image to a blurred one; the second container
+smoothly transitions from pink to orange.)
 
 #### For Example
 ##### HTML
@@ -94,12 +96,12 @@ var config = {
 _Valid expressions are of the form:_
 
 ```
-"<position> | <operand> | <distance>"
+"<position> | <operand> & <distance>"
 
 where
   position = 'top' or 'bottom'
   operand = '+' or '-'
-  distance in pixels
+  distance is in pixels
 
 i.e.
   'top'
